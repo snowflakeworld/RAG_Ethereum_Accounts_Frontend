@@ -1,8 +1,4 @@
-interface HeaderProps {
-  onNewClick: () => void;
-}
-
-export const Header: React.FC<HeaderProps> = ({ onNewClick }) => {
+export const Header: React.FC = () => {
   return (
     <header className="bg-gray-900">
       <div className="container md:py-3 py-5 relative">
