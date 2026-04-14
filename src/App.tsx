@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import RagUI from "./pages";
 
 export default function App(): React.ReactElement {

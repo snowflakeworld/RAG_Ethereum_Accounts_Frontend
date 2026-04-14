@@ -6,6 +6,5 @@ export interface InputRequest {
   prompt: string;
 }
 
-export const initializeRAG = () => API.get("/initialize");
 export const generateAnswer = (inputRequest: InputRequest) =>
   API.post("/generate", inputRequest);
