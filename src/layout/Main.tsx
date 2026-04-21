@@ -30,6 +30,7 @@ export const Main: React.FC = () => {
         ...newMessages,
       ]);
     } catch (error) {
+      console.log(error);
     } finally {
       setIsLoading(false);
     }
